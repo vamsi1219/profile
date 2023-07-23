@@ -47,7 +47,7 @@
             gap: 60px;
             align-items: center;
           }
-          @media (max-width:768px) {
+          @media (max-width:480px) {
             .details{
               margin-top: 6cm;
             }

@@ -9,13 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 50% 25% ;
     background-image: linear-gradient(white,aqua);
 }
 .img{
     height: 300px;
     width: 300px;
-    padding-left: 80px;
+    padding-left: 50px;
     /* filter: grayscale(100%); */
     border-radius: 50%;
 
@@ -63,13 +63,13 @@ body{
     height: 550px;
     display: flex;
     align-items: center;
-    border-radius: 25%;
+    border-radius: 50%;
     justify-content: center;
     gap: 20px;
     width: 1300px;
    
 }
-@media (max-width: 950px) {
+@media (max-width:480px) {
     .details {
       padding-top: 5cm;
       padding-left: 20px;
